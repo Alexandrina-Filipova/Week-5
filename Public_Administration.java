@@ -94,7 +94,25 @@ public class Public_Administration {
         }
 
     }
-
+    
+     /**
+     * Меню с опции
+     */
+    public static void menu(){
+        System.out.println("1. Сортиране на въведените числа във възходящ ред!");
+        System.out.println("2. Сортиране на въведените числа в низходящ ред!");
+        System.out.println("3. Търсене на позиция на конкретно число!");
+        System.out.println("4. Разбъркване на числата!");
+        System.out.println("5. Изчисляване на сбора на всички числа!");
+        System.out.println("6. Намиране на най-голямото число!");
+        System.out.println("7. Намиране на най-малкото число!");
+        System.out.println("8. Намиране средно-аритметично на числата!");
+        System.out.println("9. Проверка за симетричност на масива от числа!");
+        System.out.println("10. Обръщане на масива от числа!");
+        System.out.println("11. Визуализирай въведените числа!");
+        System.out.println("12. Изход!");
+    }
+    
     /**
      *  Въвеждане на числата в масива
      * @param array масив
@@ -274,23 +292,5 @@ public class Public_Administration {
         }
         System.out.println("Обръщане на масива от числа: ");
         enteredArray(array);
-    }
-
-    /**
-     * Меню с опции
-     */
-    public static void menu(){
-        System.out.println("1. Сортиране на въведените числа във възходящ ред!");
-        System.out.println("2. Сортиране на въведените числа в низходящ ред!");
-        System.out.println("3. Търсене на позиция на конкретно число!");
-        System.out.println("4. Разбъркване на числата!");
-        System.out.println("5. Изчисляване на сбора на всички числа!");
-        System.out.println("6. Намиране на най-голямото число!");
-        System.out.println("7. Намиране на най-малкото число!");
-        System.out.println("8. Намиране средно-аритметично на числата!");
-        System.out.println("9. Проверка за симетричност на масива от числа!");
-        System.out.println("10. Обръщане на масива от числа!");
-        System.out.println("11. Визуализирай въведените числа!");
-        System.out.println("12. Изход!");
     }
 }
